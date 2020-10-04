@@ -1957,7 +1957,7 @@
 		}
 
 	label {
-		color: #555;
+		color: rgba(25, 181, 254, 1)5;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 600;
@@ -1974,11 +1974,11 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #6cc091;
+		background: rgba(25, 181, 254, 1);
+		border: solid 2px rgba(25, 181, 254, 1);
 		border-radius: 10px;
 		border: none;
-		border: solid 2px #8dcca9;
-		color: #fff;
+		color: rgba(25, 181, 254, 1);
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -2001,8 +2001,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4bae77;
-			box-shadow: 0 0 0 1px #4bae77;
+			border-color: rgba(25, 181, 254, 1);
+			box-shadow: 0 0 0 1px rgba(25, 181, 254, 1);
 		}
 
 	.select-wrapper {
@@ -2022,7 +2022,7 @@
 		}
 
 		.select-wrapper:before {
-			color: #fff;
+			color:rgba(25, 181, 254, 1);
 			display: block;
 			height: 2.75em;
 			line-height: 2.75em;
@@ -2066,7 +2066,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #9a9a9a;
+			color: rgba(25, 181, 254, 1);
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2090,7 +2090,7 @@
 			input[type="radio"] + label:before {
 				background: rgba(144, 144, 144, 0.075);
 				border-radius: 0;
-				border: solid 1px #8dcca9;
+				border: solid 1px rgba(25, 181, 254, 1);
 				content: '';
 				display: inline-block;
 				height: 1.65em;
@@ -2104,16 +2104,16 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #6cc091;
-			border-color: #6cc091;
-			color: #ffffff;
+			background: rgba(25, 181, 254, 1);
+			border-color: rgba(25, 181, 254, 1);
+			color: rgba(25, 181, 254, 1);
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #6cc091;
-			box-shadow: 0 0 0 1px #6cc091;
+			border-color: rgba(25, 181, 254, 1);
+			box-shadow: 0 0 0 1px rgba(25, 181, 254, 1);
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2207,7 +2207,8 @@
 			display: none;
 		}
 
-/* Image */
+/* Image 
+	
 
 	.image {
 		border-radius: 0;
@@ -2229,10 +2230,7 @@
 				width: 100%;
 			}
 
-		.image.round img {
-			border-radius: 100%;
-		}
-
+		
 		.image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
@@ -2264,6 +2262,27 @@
 			.image.main img {
 				width: 100%;
 			}
+		*/
+		.image.round img {
+			border-radius: 100%;
+		}
+
+		.profile{
+			border-radius: 100%;
+			display:block;
+  			margin-left: auto;
+			margin-right: auto;
+			position:relative;
+			top:-30px;
+		}
+		.yt{
+			margin-top:20px;
+			margin-bottom:20px;
+			display:block;
+  			margin-left: auto;
+			margin-right: auto;
+			position:relative;
+		}
 
 /* List */
 
@@ -2293,7 +2312,7 @@
 		}
 
 			ul.alt li {
-				border-top: solid 1px #dbdbdb;
+				border-top: solid 1px rgba(25, 181, 254, 1);
 				padding: 0.5em 0;
 			}
 
@@ -2303,7 +2322,7 @@
 				}
 
 			ul.alt.dark li {
-				border-top: solid 1px rgba(0, 0, 0, 0.25);
+				border-top: solid 1px rgba(25, 181, 254, 1);
 			}
 
 		ul.icons {
@@ -2526,8 +2545,8 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #6cc091;
-		color: #6cc091 !important;
+		/*box-shadow: inset 0 0 0 3px  rgba(25, 181, 254, 1);
+		color:  rgba(25, 181, 254, 1) !important;*/
 		border-radius: 30px;
 		border: 0;
 		cursor: pointer;
@@ -2617,7 +2636,7 @@
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #7ec89e;
+				background-color: black;
 			}
 
 			input[type="submit"].alt:active,
@@ -2625,7 +2644,7 @@
 			input[type="button"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #7ec89e;
+				background-color: black;
 			}
 
 			input[type="submit"].alt.icon:before,
@@ -2641,7 +2660,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #6cc091;
+			background-color: black;
 			color: #ffffff !important;
 		}
 
@@ -2650,7 +2669,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #7ec89e;
+				background-color: black;
 			}
 
 			input[type="submit"].special:active,
@@ -2658,7 +2677,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #5ab884;
+				background-color: black;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2705,7 +2724,7 @@
 		}
 
 	#header {
-		color: #fff;
+		color:rgba(25, 181, 254, 1);
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -2726,7 +2745,6 @@
 			color: #ffffff;
 			display: inline-block;
 			font-weight: 400;
-			height: inherit;
 			left: 0;
 			line-height: inherit;
 			margin: 0;
@@ -2913,11 +2931,11 @@
 				color: inherit;
 			}
 
-/* bannerind */
+/* banner */
 
-	#bannerind {
+	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(../../images/bannerind.jpg);
+		/*background-image: url(../../images/banner.jpg);*/
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
@@ -2925,10 +2943,14 @@
 		text-align: center;
 		position: relative;
 	}
+		#banner .button{
+			box-shadow: inset 0 0 0 3px  rgba(25, 181, 254, 1);
+			color: rgba(25, 181, 254, 1);
+		}
 
-		#bannerind:before {
+		#banner:before {
 			content: '';
-			background: rgba(75, 75, 93, 0.85);
+			background: black;
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -2936,78 +2958,120 @@
 			left: 0;
 		}
 
-		#bannerind .inner {
+		#banner .ind {
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 8em;
+			/*background-image: url(../../images/bannerind.jpg);
+			background-size: 700px 500px;*/
+		}
+		#banner .inner{
 			border-top: 2px solid rgba(255, 255, 255, 0.2);
 			position: relative;
 			z-index: 10005;
 			padding-top: 8em;
 		}
+		#banner .pt{
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 8em;
+			/*background-image: url(../../images/bannerptc.jpg);
+			background-size: cover;*/
+		}
+		#banner .nut{
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 8em;
+			/*background-image: url(../../images/bannernut.jpg);
+			background-size: cover;*/
+		}
+		#banner .rest{
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 8em;
+			background-image: black;
+		}
 
-		#bannerind h1 {
+		#banner h1 {
 			font-size: 3.5em;
 			font-weight: 400;
-			color: #fff;
+			color: rgba(25, 181, 254, 1);
 			line-height: 1em;
 			margin: 0 0 1em 0;
 			padding: 0;
 		}
 
-		#bannerind h2 {
+		#banner h2 {
 			font-weight: 100;
-			color: #fff;
+			color:rgba(25, 181, 254, 1);
 			margin: 1;
 			font-size: 1.5em;
 		}
 
-		#bannerind h3 {
+		#banner h3 {
 			font-weight: 400;
-			color: #fff;
+			color:rgba(25, 181, 254, 1);
 			margin: 0;
 			font-size: 1.5em;
 		}
 
-		#bannerind .icon {
+		#banner .slogan{
+			font-weight: 400;
+			color: rgba(25, 181, 254, 1);
+			margin: 0;
+			font-size: 1em;
+			position:relative;
+			top:-30px;
+		}
+
+		#banner .icon {
 			color: #6cc091;
 			font-size: 2em;
 		}
 
-		#bannerind p {
+		#banner p {
 			font-size: 1em;
-			color: rgba(255, 255, 255, 0.55);
-			margin-bottom: 1.75em;
+			color: rgba(25, 181, 254, 1);
 		}
 
-		#bannerind .flex {
+		#banner .flex {
 			-ms-flex-pack: center;
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
 			text-align: center;
-			margin: 0 auto 4em auto;
+			margin: 0 auto 1em auto;
 		}
 
-			#bannerind .flex div {
-				border-right: 2px solid rgba(255, 255, 255, 0.2);
-				padding: 0 8em;
+			#banner .flex div {
+				border-right: 2px solid black;
+				padding: 0;
 			}
 
-				#bannerind .flex div:last-child {
+				#banner .flex div:last-child {
 					border: none;
 					padding-right: 0;
 				}
 
-				#bannerind .flex div:first-child {
+				#banner .flex div:first-child {
 					padding-left: 0;
 				}
 
-				#bannerind .flex div p {
+				#banner .flex div p {
 					margin: 0;
 				}
+		#banner .logo{
+			margin-bottom: 10px; /*!*/
+		}
 
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 
-			#bannerind {
+			#banner {
 				background-attachment: scroll;
 			}
 
@@ -3015,7 +3079,7 @@
 
 		@media screen and (max-width: 1680px) {
 
-			#bannerind .flex div {
+			#banner .flex div {
 				padding: 0 6em;
 			}
 
@@ -3023,23 +3087,23 @@
 
 		@media screen and (max-width: 1280px) {
 
-			#bannerind {
+			#banner {
 				padding: 7em 0 6em 0;
 			}
 
-				#bannerind .inner {
+				#banner .ind,.pt,.nut {
 					padding-top: 6em;
 				}
 
-				#bannerind h1 {
+				#banner h1 {
 					font-size: 3em;
 				}
 
-				#bannerind h3 {
+				#banner h3 {
 					font-size: 1.25em;
 				}
 
-				#bannerind .flex div {
+				#banner .flex div {
 					padding: 0 3em;
 				}
 
@@ -3047,24 +3111,24 @@
 
 		@media screen and (max-width: 980px) {
 
-			#bannerind {
+			#banner {
 				background-attachment: scroll;
 				padding: 5em 0 4em 0;
 			}
 
-				#bannerind .inner {
+				#banner .ind,.pt,.nut {
 					padding-top: 4em;
 				}
 
-				#bannerind h1 {
+				#banner h1 {
 					font-size: 2.5em;
 				}
 
-				#bannerind h3 {
+				#banner h3 {
 					font-size: 1.25em;
 				}
 
-				#bannerind .flex div {
+				#banner .flex div {
 					font-size: .85em;
 					padding: 0 1.5em;
 				}
@@ -3073,23 +3137,23 @@
 
 		@media screen and (max-width: 736px) {
 
-			#bannerind {
+			#banner {
 				padding: 4em 0 3em 0;
 			}
 
-				#bannerind .inner {
+				#banner .ind,.pt,.nut {
 					padding-top: 3em;
 				}
 
-				#bannerind h1 {
+				#banner h1 {
 					font-size: 2em;
 				}
 
-				#bannerind h3 {
+				#banner h3 {
 					font-size: 1.25em;
 				}
 
-				#bannerind .flex {
+				#banner .flex {
 					-moz-flex-direction: column;
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
@@ -3097,450 +3161,80 @@
 					margin: 0 auto 2em auto;
 				}
 
-					#bannerind .flex div {
+					#banner .flex div {
 						font-size: .85em;
 						padding: 0;
 						border: none;
-						margin-bottom: 1em;
+						margin-bottom: 0em;
 					}
 
 		}
 
 		@media screen and (max-width: 480px) {
 
-			#bannerind h1 {
+			#banner h1 {
 				font-size: 1.5em;
 			}
 
 		}
-/* bannernut */
 
-#bannernut {
-	padding: 8em 0 11em 0;
-	background-image: url(../../images/bannernut.jpg);
-	background-size: cover;
-	background-position: bottom;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	text-align: center;
-	position: relative;
-}
-
-	#bannernut:before {
-		content: '';
-		background: rgba(75, 75, 93, 0.85);
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
+	/* selection text*/
+	.text{
+		position:relative;
+		top:-30px;
 	}
-
-	#bannernut .inner {
-		border-top: 2px solid rgba(255, 255, 255, 0.2);
-		position: relative;
-		z-index: 10005;
-		padding-top: 8em;
+	
+/*three*/
+	#three{
+		background: rgba(25, 181, 254, 1);
 	}
-
-	#bannernut h1 {
-		font-size: 3.5em;
-		font-weight: 400;
-		color: #fff;
-		line-height: 1em;
-		margin: 0 0 1em 0;
-		padding: 0;
-	}
-
-	#bannernut h2 {
-		font-weight: 100;
-		color: #fff;
-		margin: 1;
-		font-size: 1.5em;
-	}
-
-	#bannernut h3 {
-		font-weight: 400;
-		color: #fff;
-		margin: 0;
-		font-size: 1.5em;
-	}
-
-	#bannernut .icon {
-		color: #6cc091;
-		font-size: 2em;
-	}
-
-	#bannernut p {
-		font-size: 1em;
-		color: rgba(255, 255, 255, 0.55);
-		margin-bottom: 1.75em;
-	}
-
-	#bannernut .flex {
-		-ms-flex-pack: center;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		text-align: center;
-		margin: 0 auto 4em auto;
-	}
-
-		#bannernut .flex div {
-			border-right: 2px solid rgba(255, 255, 255, 0.2);
-			padding: 0 8em;
+		#three h3 {
+			color:black;
 		}
-
-			#bannernut .flex div:last-child {
-				border: none;
-				padding-right: 0;
-			}
-
-			#bannernut .flex div:first-child {
-				padding-left: 0;
-			}
-
-			#bannernut .flex div p {
-				margin: 0;
-			}
-
-	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-
-		#bannernut {
-			background-attachment: scroll;
+		#three h2{
+			text-align: center;
+			color:black;
 		}
-
-	}
-
-	@media screen and (max-width: 1680px) {
-
-		#bannernut .flex div {
-			padding: 0 6em;
+		#three p {
+			color:black;
 		}
-
-	}
-
-	@media screen and (max-width: 1280px) {
-
-		#bannernut {
-			padding: 7em 0 6em 0;
+		#three .button{
+			box-shadow: inset 0 0 0 3px  black;
+			color:black;
+			position:relative;
+			top:-20px;
 		}
-
-			#bannernut .inner {
-				padding-top: 6em;
-			}
-
-			#bannernut h1 {
-				font-size: 3em;
-			}
-
-			#bannernut h3 {
-				font-size: 1.25em;
-			}
-
-			#bannernut .flex div {
-				padding: 0 3em;
-			}
-
-	}
-
-	@media screen and (max-width: 980px) {
-
-		#bannernut {
-			background-attachment: scroll;
-			padding: 5em 0 4em 0;
-		}
-
-			#bannernut .inner {
-				padding-top: 4em;
-			}
-
-			#bannernut h1 {
-				font-size: 2.5em;
-			}
-
-			#bannernut h3 {
-				font-size: 1.25em;
-			}
-
-			#bannernut .flex div {
-				font-size: .85em;
-				padding: 0 1.5em;
-			}
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		#bannernut {
-			padding: 4em 0 3em 0;
-		}
-
-			#bannernut .inner {
-				padding-top: 3em;
-			}
-
-			#bannernut h1 {
-				font-size: 2em;
-			}
-
-			#bannernut h3 {
-				font-size: 1.25em;
-			}
-
-			#bannernut .flex {
-				-moz-flex-direction: column;
-				-webkit-flex-direction: column;
-				-ms-flex-direction: column;
-				flex-direction: column;
-				margin: 0 auto 2em auto;
-			}
-
-				#bannernut .flex div {
-					font-size: .85em;
-					padding: 0;
-					border: none;
-					margin-bottom: 1em;
-				}
-
-	}
-
-	@media screen and (max-width: 480px) {
-
-		#bannernut h1 {
-			font-size: 1.5em;
-		}
-
-	}
-/* bannerpt */
-
-#bannerpt {
-	padding: 8em 0 9em 0;
-	background-image: url(../../images/bannerpt.jpg);
-	background-size: cover;
-	background-position: bottom;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	text-align: center;
-	position: relative;
-}
-
-	#bannerpt:before {
-		content: '';
-		background: rgba(75, 75, 93, 0.85);
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-	}
-
-	#bannerpt .inner {
-		border-top: 2px solid rgba(255, 255, 255, 0.2);
-		position: relative;
-		z-index: 10005;
-		padding-top: 8em;
-	}
-
-	#bannerpt h1 {
-		font-size: 3.5em;
-		font-weight: 400;
-		color: #fff;
-		line-height: 1em;
-		margin: 0 0 1em 0;
-		padding: 0;
-	}
-
-	#bannerpt h2 {
-		font-weight: 100;
-		color: #fff;
-		margin: 1;
-		font-size: 1.5em;
-	}
-
-	#bannerpt h3 {
-		font-weight: 400;
-		color: #fff;
-		margin: 0;
-		font-size: 1.5em;
-	}
-
-	#bannerpt .icon {
-		color: #6cc091;
-		font-size: 2em;
-	}
-
-	#bannerpt p {
-		font-size: 1em;
-		color: rgba(255, 255, 255, 0.55);
-		margin-bottom: 1.75em;
-	}
-
-	#bannerpt .flex {
-		-ms-flex-pack: center;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		text-align: center;
-		margin: 0 auto 4em auto;
-	}
-
-		#bannerpt .flex div {
-			border-right: 2px solid rgba(255, 255, 255, 0.2);
-			padding: 0 8em;
-		}
-
-			#bannerpt .flex div:last-child {
-				border: none;
-				padding-right: 0;
-			}
-
-			#bannerpt .flex div:first-child {
-				padding-left: 0;
-			}
-
-			#bannerpt .flex div p {
-				margin: 0;
-			}
-
-	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-
-		#bannerpt {
-			background-attachment: scroll;
-		}
-
-	}
-
-	@media screen and (max-width: 1680px) {
-
-		#bannerpt .flex div {
-			padding: 0 6em;
-		}
-
-	}
-
-	@media screen and (max-width: 1280px) {
-
-		#bannerpt {
-			padding: 7em 0 6em 0;
-		}
-
-			#bannerpt .inner {
-				padding-top: 6em;
-			}
-
-			#bannerpt h1 {
-				font-size: 3em;
-			}
-
-			#bannerpt h3 {
-				font-size: 1.25em;
-			}
-
-			#bannerpt .flex div {
-				padding: 0 3em;
-			}
-
-	}
-
-	@media screen and (max-width: 980px) {
-
-		#bannerpt {
-			background-attachment: scroll;
-			padding: 5em 0 4em 0;
-		}
-
-			#bannerpt .inner {
-				padding-top: 4em;
-			}
-
-			#bannerpt h1 {
-				font-size: 2.5em;
-			}
-
-			#bannerpt h3 {
-				font-size: 1.25em;
-			}
-
-			#bannerpt .flex div {
-				font-size: .85em;
-				padding: 0 1.5em;
-			}
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		#bannerpt {
-			padding: 4em 0 3em 0;
-		}
-
-			#bannerpt .inner {
-				padding-top: 3em;
-			}
-
-			#bannerpt h1 {
-				font-size: 2em;
-			}
-
-			#bannerpt h3 {
-				font-size: 1.25em;
-			}
-
-			#bannerpt .flex {
-				-moz-flex-direction: column;
-				-webkit-flex-direction: column;
-				-ms-flex-direction: column;
-				flex-direction: column;
-				margin: 0 auto 2em auto;
-			}
-
-				#bannerpt .flex div {
-					font-size: .85em;
-					padding: 0;
-					border: none;
-					margin-bottom: 1em;
-				}
-
-	}
-
-	@media screen and (max-width: 480px) {
-
-		#bannerpt h1 {
-			font-size: 1.5em;
-		}
-
-	}
 /* Footer */
 
 	#footer {
 		padding: 6em 0;
-		background: #6cc091;
-		color: #fff;
+		background:black;
+		color:rgba(25, 181, 254, 1);
 		text-align: center;
 	}
-
+		#footer .button{
+			box-shadow: inset 0 0 0 3px  rgba(25, 181, 254, 1);
+			color: rgba(25, 181, 254, 1);
+		}
 		#footer h3 {
-			color: #FFF;
+			color:rgba(25, 181, 254, 1);
 			margin-bottom: 2em !important;
 		}
 
 		#footer label {
 			text-align: left;
-			color: #FFF;
+			color: rgba(25, 181, 254, 1);
 		}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(25, 181, 254, 1);
 			font-size: 0.8em;
 			margin: 0 0 2em 0;
 			padding: 0;
 		}
 
 			#footer .copyright a {
-				color: rgba(255, 255, 255, 0.5);
+				color:rgba(25, 181, 254, 1);
 				text-decoration: none;
 			}
 
