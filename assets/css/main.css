@@ -1633,7 +1633,7 @@
 		}
 
 	a {
-		color: #6cc091;
+		color:rgba(25, 181, 254, 1);
 		text-decoration: underline;
 	}
 
@@ -1957,7 +1957,7 @@
 		}
 
 	label {
-		color: rgba(25, 181, 254, 1)5;
+		color: rgba(25, 181, 254, 1);
 		display: block;
 		font-size: 0.9em;
 		font-weight: 600;
