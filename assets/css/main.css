@@ -2561,7 +2561,7 @@
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
-		#FFFFFF-space: nowrap;
+		white-space: nowrap;
 	}
 
 		input[type="submit"]:hover,
@@ -2637,7 +2637,7 @@
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-colorrgba(25, 181, 254, 1);
+				background-color:rgba(25, 181, 254, 1);
 			}
 
 			input[type="submit"].alt:active,
