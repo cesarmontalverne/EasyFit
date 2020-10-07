@@ -3227,6 +3227,12 @@
 			color:rgba(25, 181, 254, 1);
 			margin-bottom: 2em !important;
 		}
+		#footer h5{
+			color:rgba(25, 181, 254, 1);
+			position : relative;
+			top:-50px;
+
+		}
 
 		#footer label {
 			text-align: left;
