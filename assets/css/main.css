@@ -1974,11 +1974,8 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(25, 181, 254, 1);
-		opacity:0.1;
-		border: solid 2px rgba(25, 181, 254, 1);
+		border: solid 1px rgba(25, 181, 254, 1);
 		border-radius: 10px;
-		border: none;
 		color:rgba(25, 181, 254, 1);
 		display: block;
 		outline: 0;

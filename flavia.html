@@ -23,7 +23,7 @@
 				<a href="index.html">Home</a>
 				<a href="nutritionists.html">Nutritionists</a>
 				<a href="personal_trainers.html">Personal Trainers</a>
-				<a href="login.html">Professional's Login</a>
+				<a href="login.html">Specialist's Login</a>
 			</nav>
 			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 		</div>
@@ -97,9 +97,9 @@
 
 			<h3>Get in Touch</h3>
 			<h5>if you are interested or have any doubts<br>
-			    message the professional</h5>
+			    message the Specialist</h5>
 
-			<form action="mailto:ca6fqb@virginia.edu">
+			<form method="post" action="form-to-email.php">
 
 				<div class="field half first">
 					<label for="name">Name</label>
@@ -107,17 +107,23 @@
 				</div>
 				<div class="field half">
 					<label for="email or phone">Preferred means of communication</label>
-					<input name="email/phone" id="email/phone" type="email" placeholder="Email/Phone number">
+					<input name="email" id="email" type="email" placeholder="Email/Phone number">
 				</div>
 				<div class="field">
 					<label for="message">Message</label>
 					<textarea name="message" id="message" rows="3" placeholder="Message"></textarea>
 				</div>
 				<ul class="actions">
-					<li><input value="Send Message" class="button alt" type="submit"></li>
+					<li><input method="post" value="Send Message" class="button alt" type="submit"></li>
 				</ul>
 			</form>
 
+			<script language="JavaScript">
+				var frmvalidator = new Validator("contactform");
+				frmvalidator.addValidation("name","req","Please provide your name"); 
+				frmvalidator.addValidation("email","req","Please provide your email"); 
+				frmvalidator.addValidation("email","email", "Please enter a valid email address"); 
+			</script>
 
 			<div class="copyright">
 				&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>
