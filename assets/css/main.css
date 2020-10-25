@@ -1930,8 +1930,6 @@
 			text-align:center;
 		}
 		.resume{
-			margin-left:20em;
-			margin-right:20em;
 			text-align:left;
 			color: rgba(25, 181, 254, 1);
 			list-style-type: square;
@@ -1939,7 +1937,7 @@
 		}
 		@media only screen and (max-width: 768px) {
 			/* For mobile phones: */
-			[class*="resume"] {
+			[class="resume"] {
 			  margin-left:0em;
 			  margin-right: 0em;
 			}
