@@ -1937,6 +1937,13 @@
 			list-style-type: square;
 			list-style-position: inside;
 		}
+		@media only screen and (max-width: 768px) {
+			/* For mobile phones: */
+			[class*="resume"] {
+			  margin-left:0em;
+			  margin-right: 0em;
+			}
+		  }
 		.text{
 			margin:1em;
 		}
@@ -2621,6 +2628,8 @@
 		border:2px solid white;
 		margin-left: 10em;
 		margin-right:10em;
+		margin-top: 1em;
+		margin-bottom: 1em;
 		line-height: 5mm;
 	}
 		.profiles:link{
